@@ -7,7 +7,7 @@ load_dotenv()
 
 # import chain
 try:
-    from .query_langchain import qa_chain
+    from app.query_langchain import qa_chain
 except Exception as e:
     print("Could not load RAG chain:", e)
     qa_chain = None
