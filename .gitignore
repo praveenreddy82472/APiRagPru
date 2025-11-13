@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+*.env
+
+# Secrets
+setup.txt
+
+# Azure build artifacts
+oryx-manifest.toml
+oryx_envtype
+oryx-lockfile
+*.zip
+api_clean.zip
+
+# Output data
+output/
+*.json
+
+# Streamlit artifacts
+.streamlit/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Byte-compiled
+*.py[cod]
+
+# IDE
+.vscode/
+.idea/
+.azure/
+
+# Cache
+.cache/

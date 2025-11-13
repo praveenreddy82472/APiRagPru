@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+gunicorn
+python-dotenv
+openai
+requests
+azure-search-documents
+
+# Required by your RAG pipeline
+langchain
+langchain-openai
+langchain-community
